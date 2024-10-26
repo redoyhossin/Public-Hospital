@@ -1,212 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini-HTML-And-CSS-Project</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Public Hospital</title>
     <!--------------
          link-favicon 
         --------------->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!--------------
          link-favicon 
         --------------->
     <!-----------------------
          link-CSS 
           ------------------>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-----------------------
          link-CSS 
           ------------------>
+          <!--link UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css" />
 
 
-</head>
+          <!--link UIkit CSS -->
 
-<body>
+  </head>
+
+  <body>
     <!-- header-section ------------------->
     <section>
-        <nav id="nav-hed">
-            <div>
-                <h1 style="font-size: 25px;font-weight: bold;font-style: italic;">
-                    Public <span class="commonColor">Hospital</span>
-                </h1>
-            </div>
-            <div class="nav-link">
-                <ul>
-                    <li class="nav-hover">Home</li>
-                    <li class="nav-hover">About Us</li>
-                    <li class="nav-hover">Services </li>
-                    <li class="nav-hover">Contact</li>
-                    <li class="active">Book Now</li>
-                </ul>
-            </div>
-        </nav>
+      <nav id="nav-hed">
+        <div>
+          <h1 style="font-size: 25px; font-weight: bold; font-style: italic">
+            Public <span class="commonColor">Hospital</span>
+          </h1>
+        </div>
+        <div class="nav-link">
+          <ul>
+            <li class="nav-hover">Home</li>
+            <li class="nav-hover">About Us</li>
+            <li class="nav-hover">Services</li>
+            <li class="nav-hover">Contact</li>
+            <li class="active">Book Now</li>
+          </ul>
+        </div>
+      </nav>
     </section>
     <!-- header-section -------end--------------------->
 
     <!-- main-section -------------------------->
 
     <main>
-        <!-------------
+      <!-------------
              Head_body -------------------->
-        <section class="body-hed">
-            <div>
-                <h1 style="line-height: 2rem;">Never Hesitate to <br>
-                    consult with Doctor
-                </h1>
-                <p style="margin: 12px 0px;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sapiente nostrum <br> commodi nemo.
-                    Minus,
-                    aperiam debitis? Deserunt odio voluptatem officia, autem ipsam, <br> perferendis ipsa et a, aliquid
-                    fuga
-                    sint labore?
-                </p> <br>
-                <button class="btn-book">Book Now</button>
-            </div>
+      <section class="body-hed">
+        <div>
+          <h1 style="line-height: 2rem">
+            Never Hesitate to <br />
+            consult with Doctor
+          </h1>
+          <p style="margin: 12px 0px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sapiente
+            nostrum <br />
+            commodi nemo. Minus, aperiam debitis? Deserunt odio voluptatem
+            officia, autem ipsam, <br />
+            perferendis ipsa et a, aliquid fuga sint labore?
+          </p>
+          <br />
+          <button class="btn-book">Book Now</button>
+        </div>
 
-            <div>
-                <img src="/imgs/HeadImg.PNG" alt="">
-            </div>
-        </section>
-        <!-------------
+        <div>
+          <img src="/imgs/HeadImg.PNG" alt="" />
+        </div>
+      </section>
+      <!-------------
              Head_body -------------------->
 
-        <!----------------
+      <!----------------
                  About_Us -------------------->
 
+      <section>
+        <div class="About_con">
+          <p style="font-size: 14px">Need to know about us?</p>
+          <h4 style="font-size: 23px; font-weight: bold; margin-top: 8px">
+            Go to Know About Us
+          </h4>
+        </div>
 
-        <section>
-            <div class="About_con">
-                <p style="font-size: 14px;"> Need to know about us?</p>
-                <h4 style="font-size:23px; font-weight: bold; margin-top: 8px;">
-                    Go to Know About Us
-                </h4>
-            </div>
+        <div class="about_main">
+          <div class="card1">
+            <img
+              style="background-color: blue; color: blue"
+              src="/imgs/iconbody/support.PNG"
+              alt=""
+            />
+            <h4>24/7 Support</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+              exercitationem velit iure sunt temporibus, repellat aliquam
+              accusantium omnis perferendis a?
+            </p>
+          </div>
 
-            <div class="about_main">
+          <div class="card2">
+            <img src="/imgs/iconbody/key.PNG" alt="" />
+            <h4>Private & Secure</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+              exercitationem velit iure sunt temporibus, repellat aliquam
+              accusantium omnis perferendis a?
+            </p>
+          </div>
 
-                <div class="card1">
-                    <img style="background-color: blue; color: blue; " src="/imgs/iconbody/support.PNG" alt="">
-                    <h4>24/7 Support</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam exercitationem velit iure sunt
-                        temporibus, repellat aliquam accusantium omnis perferendis a?
-                    </p>
-                </div>
+          <div class="card3">
+            <img src="/imgs/iconbody/team.PNG" alt="" />
+            <h4>Million Customers</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+              exercitationem velit iure sunt temporibus, repellat aliquam
+              accusantium omnis perferendis a?
+            </p>
+          </div>
+        </div>
+      </section>
 
-
-                <div class="card2">
-                    <img src="/imgs/iconbody/key.PNG" alt="">
-                    <h4>Private & Secure</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam exercitationem velit iure sunt
-                        temporibus, repellat aliquam accusantium omnis perferendis a?</p>
-                </div>
-
-
-                <div class="card3">
-                    <img src="/imgs/iconbody/team.PNG" alt="">
-                    <h4>Million Customers</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam exercitationem velit iure sunt
-                        temporibus, repellat aliquam accusantium omnis perferendis a?
-                    </p>
-                </div>
-            </div>
-        </section>
-
-
-
-
-        <!----------------
+      <!----------------
                  About_Us -------------------->
 
-        <!------------------
+      <!------------------
                      Consulation ------------------------->
 
-        <section class="Consulation_main">
-            <div>
-                <img src="imgs/bodyImg.PNG" alt="">
-            </div>
+      <section class="Consulation_main">
+        <div>
+          <img src="imgs/bodyImg.PNG" alt="" />
+        </div>
 
+        <div class="Consulation_text">
+          <h3>Start Your Online Consulation With Doctor</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+            tenetur ipsum debitis repudiandae dignissimos in expedita
+            consequuntur obcaecati ab accusantium! Iste debitis incidunt aliquam
+            totam officiis modi obcaecati ipsa nostrum.
+          </p>
 
-            <div class="Consulation_text">
-                <h3>
-                    Start Your Online Consulation With Doctor
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tenetur ipsum debitis repudiandae
-                    dignissimos in expedita consequuntur obcaecati ab accusantium! Iste debitis incidunt aliquam totam
-                    officiis modi obcaecati ipsa nostrum.
-                </p>
-
-                <button class="Consulation_btn"> Start Your Consulation</button>
-            </div>
-        </section>
-        <!------------------
+          <button class="Consulation_btn">Start Your Consulation</button>
+        </div>
+      </section>
+      <!------------------
                      Consulation ------------------------->
 
-        <!--------------------------------------------- 
+      <!--------------------------------------------- 
                         About_me 
 ----------------------------------------------------------------------------------->
 
-        <section>
-            <div class="about_me">
-                <img src="imgs/profile.PNG" alt=""> <br>
-                <h4 style="color: blue;">
-                    Redoy
-                </h4>
-                <br>
-                <p style="line-height: 22px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Volup
-                    magnam <br> reiciendis praesentium nam tempora laborum, <br> excepturi est
-                    voluptas? Asperiores rem sint, commodi consectetur quam, cum ass <br> nostrum necessitatibus
-                    quo
-                    qui ad dolor?</p>
-            </div>
-        </section>
+      <section>
+        <div class="about_me">
+          <img src="imgs/profile.PNG" alt="" /> <br />
+          <h4 style="color: blue">Redoy</h4>
+          <br />
+          <p style="line-height: 22px">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Volup
+            magnam <br />
+            reiciendis praesentium nam tempora laborum, <br />
+            excepturi est voluptas? Asperiores rem sint, commodi consectetur
+            quam, cum ass <br />
+            nostrum necessitatibus quo qui ad dolor?
+          </p>
+        </div>
+      </section>
 
-
-
-
-        <!--------------------------------------------- 
+      <!--------------------------------------------- 
                         About_me 
 ----------------------------------------------------------------------------------->
 
+      <!-- Specialists--------------------/***********/ -->
 
-        <!-- Specialists--------------------/***********/ -->
+      <section class="Specialists">
+        <div class="Specialists_text">
+          <p>Consult our special services?</p>
+          <h4>Our Doctor in All Specialists</h4>
+        </div>
 
-        <section class="Specialists">
-            <div class="Specialists_text">
-                <p>
-                    Consult our special services?
+        <div class="Specialists_head">
+          <div>
+            <img src="imgs/icon/heart.PNG" alt="" />
+            <h4>Heart</h4>
+          </div>
+          <div>
+            <img src="imgs/icon/respiratory .PNG" alt="" />
+            <h4>Respiratory</h4>
+          </div>
+          <div>
+            <img src="imgs/icon/Teaths .PNG" alt="" />
+            <h4>Teaths</h4>
+          </div>
+          <div>
+            <img src="imgs/icon/person 1.png" alt="" />
+            <h4>Lead</h4>
+          </div>
+        </div>
+      </section>
+      <!-- Specialists--------------------/***********/ -->
 
-                </p>
-                <h4>
-                    Our Doctor in All Specialists
-                </h4>
-            </div>
+      <!-----------------------------------------
+     Subscribe   --------------------------->
 
-            <div class="Specialists_head">
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <img src="" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- Specialists--------------------/***********/ -->
+      <div class="Subscribe">
+        <div class="Subscribe_head">
+          <div class="Subscribe-img">
+            <img src="imgs/dribbble_1.gif" alt="" />
+          </div>
 
+          <div class="Subscribe-text">
+            <h3>Subscribe and Get Free Consulation</h3>
+            <button class="Subscribe-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <!-----------------------------------------
+     Subscribe   --------------------------->
     </main>
 
+    <footer>
+      <section class="Hospital-footer">
+        <div class="Public-Hospital">
+          <div>
+            <h3
+              style="
+                text-decoration: underline;
+                font-size: 25px;
+                margin-bottom: 12px;
+              "
+            >
+              ABC <span style="color: blue">Hospital</span>
+            </h3>
+            <p style="letter-spacing: 2px">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
+              rerum. <br />
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
+              rerum
+            </p>
+          </div>
+
+          <div class="Link-style">
+            <div class="link_block">
+              <a href="">Useful Links </a>
+              <a class="multi-style" href="">Home </a>
+              <a class="multi-style" href="">About</a>
+              <a class="multi-style" href=""> Contact</a>
+            </div>
+
+            <div class="link_block">
+              <a href=""> Our Services</a>
+              <a class="multi-style" href=""> Heart</a>
+              <a class="multi-style" href=""> Teaths</a>
+              <a class="multi-style" href=""> Denstisty</a>
+            </div>
+
+            <div class="link_block">
+              <a href=""> Useful Links</a>
+              <a class="multi-style" href=""> Home</a>
+              <a class="multi-style" href=""> About</a>
+              <a class="multi-style" href="">Contact</a>
+            </div>
+
+            <div class="link_block">
+              <a href="">Our Services</a>
+              <a class="multi-style" href=""> Heart</a>
+              <a class="multi-style" href=""> Teaths</a>
+              <a class="multi-style" href=""> Denstisty</a>
+            </div>
+          </div>
+        </div>
+        <h4 style="text-align: center; margin: 8px 0px; color: blue">
+          ABC Hospital All right reserved &copy; 2024
+        </h4>
+      </section>
+    </footer>
 
     <!-- main-section ------------end-------------->
-</body>
 
+    <!--link UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+
+    <!--link UIkit JS -->
+
+  </body>
 </html>

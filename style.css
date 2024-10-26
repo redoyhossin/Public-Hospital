@@ -1,175 +1,149 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .commonColor {
-    color: blue;
+  color: blue;
 }
 
 #nav-hed {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 50px;
-    padding-top: 20px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 50px;
+  padding-top: 20px;
 }
 
 .nav-link li {
-    display: inline-block;
-    /* list-style: none; */
-    margin: 0px 14px;
-    cursor: pointer;
+  display: inline-block;
+  /* list-style: none; */
+  margin: 0px 14px;
+  cursor: pointer;
 }
 
 .active {
-    background-color: blue;
-    color: white;
-    padding: 10px 16px;
-    border-radius: 4px;
-    font-weight: bolder;
+  background-color: blue;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bolder;
 }
 
 .nav-hover:hover {
-    color: blue;
-    border-bottom: 1px solid blue;
+  color: blue;
+  border-bottom: 1px solid blue;
 }
 
-
 .btn-book {
-    background-color: blue;
-    color: white;
-    padding: 11px 18px;
-    border-radius: 4px;
-    font-weight: bolder;
-    font-size: medium;
-    border: none;
-    cursor: pointer;
+  background-color: blue;
+  color: white;
+  padding: 11px 18px;
+  border-radius: 4px;
+  font-weight: bolder;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-book:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
-
 .body-hed {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px;
 }
 
 .body-hed img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-
-
-
 
 /*************
  about_us
  **********/
 
 .About_con {
-    text-align: center;
-
+  text-align: center;
 }
 
 .about_main {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 40px 30vh;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 30vh;
 }
 
 .about_main div h4 {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 .about_main div p {
-    font-size: 12px;
-    opacity: 0.7;
+  font-size: 12px;
+  opacity: 0.7;
 }
 
-
 .card1 {
-    background-color: darkgrey;
-    padding: 20px 16px;
-    margin: 0px 12px;
+  background-color: darkgrey;
+  padding: 20px 16px;
+  margin: 0px 12px;
 }
 
 .card1 img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-
-
-
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
 }
 
 .card1 {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
 .card2 {
-    background-color: rgba(226, 216, 216, 0.644);
-    padding: 20px 16px;
-    margin: 0px 12px;
+  background-color: rgba(226, 216, 216, 0.644);
+  padding: 20px 16px;
+  margin: 0px 12px;
 }
 
 .card2 img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
 }
 
 .card2 {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .card3 {
-    background-color: rgba(151, 142, 142, 0.705);
-    padding: 20px 16px;
-    margin: 0px 12px;
+  background-color: rgba(151, 142, 142, 0.705);
+  padding: 20px 16px;
+  margin: 0px 12px;
 }
-
 
 .card3 img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
 }
 
 .card3 {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 
 /*************
 about_us
@@ -179,61 +153,52 @@ about_us
  Consulation ********************/
 
 .Consulation_main {
-    background-color: rgba(236, 231, 226, 0.158);
-
+  background-color: rgba(236, 231, 226, 0.158);
 }
 
 .Consulation_main {
-
-    margin: 22px 30px;
-    display: grid;
-    grid-template-columns: 2fr auto;
-    align-items: center;
-    gap: 70px;
+  margin: 22px 30px;
+  display: grid;
+  grid-template-columns: 2fr auto;
+  align-items: center;
+  gap: 70px;
 }
 
-
-
 .Consulation_text {
-    padding-right: 80px;
-
+  padding-right: 80px;
 }
 
 .Consulation_text h3 {
-    margin-bottom: 18px;
-    color: blue;
-    font-size: 26px;
-
+  margin-bottom: 18px;
+  color: blue;
+  font-size: 26px;
 }
 
 .Consulation_btn {
-    margin-top: 5px;
-    background-color: blue;
-    color: white;
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
+  margin-top: 5px;
+  background-color: blue;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
 }
-
-
 
 /************** 
  Consulation ********************/
-
 
 /*********************************************************
                                                            About_me 
                                                            ***********************************************************/
 
 .about_me {
-    text-align: center;
-    margin-bottom: 45px;
+  text-align: center;
+  margin-bottom: 45px;
 }
 
 .about_me img {
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
 }
 
 /*********************************************************
@@ -243,39 +208,213 @@ about_us
 ------------------Specialists 
 ******************************/
 
+.Specialists {
+  background-color: rgba(168, 163, 163, 0.425);
+  padding: 10px;
+}
 
+.Specialists_head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.Specialists_head div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100vh;
+}
+
+.Specialists_head div {
+  background-color: rgba(255, 228, 196, 0.774);
+  padding: 5rem 6rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.Specialists_text {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.Specialists_text p {
+  font-size: 12px;
+}
 
 /***************************************** 
 ------------------Specialists 
 ******************************/
 
+/* ****************
+Subscribe  
+*********************/
+
+.Subscribe {
+  background-color: rgba(255, 228, 196, 0.774);
+  padding: 20px 16px;
+}
+
+.Subscribe_head {
+  background-color: rgba(28, 28, 231, 0.705);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.Subscribe_head {
+  /* margin: 22px 30px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.Subscribe-img img {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 100%;
+}
+
+.Subscribe-btn {
+  margin-top: 8px;
+  color: blue;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.616);
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4.5px;
+}
+
+.Subscribe-btn:hover {
+  background-color: rgba(207, 154, 90, 0.89);
+  color: white;
+  font-weight: 600;
+}
+
+/* ****************
+Subscribe  
+*********************/
+
+/*********************
+ Footer 
+ *********************************/
+
+.Public-Hospital {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 0px 30px;
+}
+
+.Hospital-footer {
+  background-color: rgba(168, 163, 163, 0.425);
+  padding: 20px 40px;
+  height: 200px;
+}
+
+.Link-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Link-style div {
+  margin-left: 35px;
+}
+
+.link_block a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.multi-style {
+  text-decoration: none;
+  color: black;
+}
+
+.multi-style:hover {
+  text-decoration: underline;
+  color: rgb(67, 68, 180);
+}
+
+/*********************
+ Footer 
+ *********************************/
+
 /*----------------*****************---------------------------
--------------------*****************media_quary 
-*************************************************************--------------------------------------------------------*****/
-@media (max-width:769px) {
-    #nav-hed {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+-----*media_quary 
+*************************************************************-------------------*****/
+@media screen and (min-width: 320px) and (max-width: 992px){
+  #nav-hed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    }
+  .nav-link li {
+    display: block;
+    margin-top: 20px;
+  }
 
-    .nav-link li {
-        display: block;
-        margin-top: 20px;
-    }
+  .body-hed {
+    display: flex;
+    flex-direction: column;
+    /* margin: 22px 0px; */
+  }
+  .body-hed img{
+    margin-top: 15px;
+  }
+  .about_main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .about_main div {
+    margin-top: 14px;
+    border-radius: 7px;
+  }
+  .Consulation_main {
+    grid-template-columns: auto;
+    margin: 0px;
+    gap: 20px;
+    padding: 20px;
+  }
+  .Consulation_main img{
+    width: 60vw;
+  }
+  .Specialists_head{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .Specialists_head div{
+    /* margin-top: 14px; */
+    margin: 14px 14px;
+  }
+  .Subscribe_head{
+    grid-template-columns: auto;
+    align-items: center;
+    margin: auto;
+  }
+
+  .Public-Hospital{
+    flex-direction: column;
+    margin: 20px 0px;
+  }
+  .Link-style{
+    flex-direction: column;
+    margin: 20px 0px;
+
+  }
 
 
-
-    .body-hed {
-        display: flex;
-        flex-direction: column;
-        margin: 22px 0px;
-    }
 }
 
 
 /*----------------*****************---------------------------
 -------------------*****************media_quary 
-*************************************************************--------------------------------------------------------*****/
+*************************************************************/
