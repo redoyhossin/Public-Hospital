@@ -319,7 +319,7 @@ Subscribe  End
 }
 
 .Hospital-footer {
-  background-color: rgba(168, 163, 163, 0.425);
+  
   padding: 20px 40px;
   height: 200px;
 }
@@ -357,6 +357,7 @@ Subscribe  End
 -----*media_quary 
 *************************************************************-------------------*****/
 @media only screen and (min-width: 321px) and (max-width: 768px){
+  /* nav */
   #nav-hed {
     display: flex;
     flex-direction: column;
@@ -368,7 +369,8 @@ Subscribe  End
     display: block;
     margin-top: 20px;
   }
-
+  /* nav */
+  /* body-hed */
   .body-hed {
     display: flex;
     flex-direction: column;
@@ -377,6 +379,9 @@ Subscribe  End
   .body-hed img{
     margin-top: 15px;
   }
+  /* body-hed */
+
+  /* about_main */
   .about_main {
     display: flex;
     flex-direction: column;
@@ -386,6 +391,8 @@ Subscribe  End
     margin-top: 14px;
     border-radius: 7px;
   }
+  /* about_main */
+  /* Consulation_main */
   .Consulation_main {
     grid-template-columns: auto;
     margin: 0px;
@@ -395,6 +402,8 @@ Subscribe  End
   .Consulation_main img{
     width: 60vw;
   }
+  /* Consulation_main */
+  /* Specialists_head */
  .Specialists_head{
   grid-template-columns: repeat(1,1fr);
  }
@@ -402,12 +411,15 @@ Subscribe  End
 
     margin: 14px 14px;
   }
+  /* Specialists_head */
+  /* Subscribe_head */
   .Subscribe_head{
     grid-template-columns: auto;
     align-items: center;
     margin: auto;
   }
-
+  /* Subscribe_head */
+  /* footer */
   .Public-Hospital{
     flex-direction: column;
     margin: 20px 0px;
@@ -423,7 +435,7 @@ Subscribe  End
  .Hospital-footer {
   height: 0px;
  }
-
+ /* footer */
 
 }
 
@@ -451,9 +463,11 @@ Subscribe  End
     
    }
    
-   .Hospital-footer {
-    height: 0px;
-   }
+   .Public-Hospital{
+    flex-direction: column;
+   
+  }
+  
    /* footer */
 
 }
