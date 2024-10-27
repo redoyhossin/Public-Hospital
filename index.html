@@ -18,12 +18,13 @@
     <!-----------------------
          link-CSS 
           ------------------>
-          <!--link UIkit CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css" />
+    <!--link UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css"
+    />
 
-
-          <!--link UIkit CSS -->
-
+    <!--link UIkit CSS -->
   </head>
 
   <body>
@@ -53,25 +54,30 @@
     <main>
       <!-------------
              Head_body -------------------->
-      <section class="body-hed">
-        <div>
-          <h1 style="line-height: 2rem">
-            Never Hesitate to <br />
-            consult with Doctor
-          </h1>
-          <p style="margin: 12px 0px">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sapiente
-            nostrum <br />
-            commodi nemo. Minus, aperiam debitis? Deserunt odio voluptatem
-            officia, autem ipsam, <br />
-            perferendis ipsa et a, aliquid fuga sint labore?
-          </p>
-          <br />
-          <button class="btn-book">Book Now</button>
-        </div>
+      <section >
+        <div class="body-hed">
+          <div>
+            <h1 style="line-height: 2rem">
+              Never Hesitate to <br />
+              consult with Doctor
+            </h1>
+            <p style="margin: 12px 0px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              sapiente nostrum <br />
+              commodi nemo. Minus, aperiam debitis? Deserunt odio voluptatem
+              officia, autem ipsam, <br />
+              perferendis ipsa et a, aliquid fuga sint labore?
+            </p>
+            <br />
+            <button class="btn-book">Book Now</button>
+          </div>
 
-        <div>
-          <img src="/imgs/HeadImg.PNG" alt="" />
+        
+          <div>
+            <div class="uk-overflow-hidden">
+                <img src="imgs/HeadImg.PNG" loading="lazy" alt="HeadImg" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+            </div>
+        </div>
         </div>
       </section>
       <!-------------
@@ -89,30 +95,25 @@
         </div>
 
         <div class="about_main">
-
           <div class="uk-animation-toggle" tabindex="0">
             <div class="card1 uk-animation-scale-down">
               <img
-              style="background-color: blue; color: blue"
-              src="/imgs/iconbody/support.PNG"
-              alt=""
-            />
-            <h4>24/7 Support</h4>
-            <p class="uk-animation-slide-bottom-small">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
-              exercitationem velit iure sunt temporibus, repellat aliquam
-              accusantium omnis perferendis a?
-            </p>
+                style="background-color: blue; color: blue"
+                src="/imgs/iconbody/support.PNG"
+                alt="support" loading="lazy"
+              />
+              <h4>24/7 Support</h4>
+              <p class="uk-animation-slide-bottom-small">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+                exercitationem velit iure sunt temporibus, repellat aliquam
+                accusantium omnis perferendis a?
+              </p>
             </div>
-        </div>
-        
-     
-
-         
+          </div>
 
           <div class="uk-animation-toggle" tabindex="0">
             <div class="card2 uk-animation-scale-down">
-              <img src="/imgs/iconbody/key.PNG" alt="" />
+              <img src="/imgs/iconbody/key.PNG" alt="key" loading="lazy" />
               <h4>Private & Secure</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
@@ -120,24 +121,20 @@
                 accusantium omnis perferendis a?
               </p>
             </div>
-        </div>
+          </div>
 
-        
           <div class="uk-animation-toggle" tabindex="0">
             <div class="card3 uk-animation-scale-down">
-              <img src="/imgs/iconbody/team.PNG" alt="" />
-            <h4>Million Customers</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
-              exercitationem velit iure sunt temporibus, repellat aliquam
-              accusantium omnis perferendis a?
-            </p>
+              <img src="/imgs/iconbody/team.PNG" alt="team" loading="lazy"/>
+              <h4>Million Customers</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+                exercitationem velit iure sunt temporibus, repellat aliquam
+                accusantium omnis perferendis a?
+              </p>
             </div>
+          </div>
         </div>
-
-
-        </div>
-        
       </section>
 
       <!----------------
@@ -146,21 +143,31 @@
       <!------------------
                      Consulation ------------------------->
 
-      <section class="Consulation_main">
-        <div>
-          <img src="imgs/bodyImg.PNG" alt="" />
-        </div>
+      <section>
+        <div class="Consulation_main">
+          <div class="uk-animation-toggle" tabindex="0">
+            <div
+              class="uk-card uk-animation-slide-left-medium uk-animation-reverse"
+            >
+              <img src="imgs/bodyImg.PNG" alt="bodyImg" loading="lazy" />
+            </div>
+          </div>
 
-        <div class="Consulation_text">
-          <h3>Start Your Online Consulation With Doctor</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-            tenetur ipsum debitis repudiandae dignissimos in expedita
-            consequuntur obcaecati ab accusantium! Iste debitis incidunt aliquam
-            totam officiis modi obcaecati ipsa nostrum.
-          </p>
+          <div class="uk-animation-toggle" tabindex="0">
+            <div
+              class="Consulation_text uk-animation-slide-right-medium uk-animation-reverse"
+            >
+              <h3>Start Your Online Consulation With Doctor</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                tenetur ipsum debitis repudiandae dignissimos in expedita
+                consequuntur obcaecati ab accusantium! Iste debitis incidunt
+                aliquam totam officiis modi obcaecati ipsa nostrum.
+              </p>
 
-          <button class="Consulation_btn">Start Your Consulation</button>
+              <button class="Consulation_btn">Start Your Consulation</button>
+            </div>
+          </div>
         </div>
       </section>
       <!------------------
@@ -172,7 +179,7 @@
 
       <section>
         <div class="about_me">
-          <img src="imgs/profile.PNG" alt="" /> <br />
+          <img src="imgs/profile.PNG" alt="profile" loading="lazy"/> <br />
           <h4 style="color: blue">Redoy</h4>
           <br />
           <p style="line-height: 22px">
@@ -200,19 +207,19 @@
 
         <div class="Specialists_head">
           <div>
-            <img src="imgs/icon/heart.PNG" alt="" />
+            <img src="imgs/icon/heart.PNG" alt="heart" loading="lazy" />
             <h4>Heart</h4>
           </div>
           <div>
-            <img src="imgs/icon/respiratory .PNG" alt="" />
+            <img src="imgs/icon/respiratory .PNG" alt="respiratory" loading="lazy"/>
             <h4>Respiratory</h4>
           </div>
           <div>
-            <img src="imgs/icon/Teaths .PNG" alt="" />
+            <img src="imgs/icon/Teaths .PNG" alt="Teaths" loading="lazy"/>
             <h4>Teaths</h4>
           </div>
           <div>
-            <img src="imgs/icon/person 1.png" alt="" />
+            <img src="imgs/icon/person 1.png" alt="person" loading="lazy"/>
             <h4>Lead</h4>
           </div>
         </div>
@@ -225,7 +232,7 @@
       <div class="Subscribe">
         <div class="Subscribe_head">
           <div class="Subscribe-img">
-            <img src="imgs/dribbble_1.gif" alt="" />
+            <img src="imgs/dribbble_1.gif" alt="dribbblegif" loading="lazy"/>
           </div>
 
           <div class="Subscribe-text">
@@ -238,7 +245,7 @@
       <!-----------------------------------------
      Subscribe   --------------------------->
     </main>
-  
+
     <footer>
       <section class="Hospital-footer">
         <div class="Public-Hospital">
@@ -299,10 +306,9 @@
     <!-- main-section ------------end-------------->
 
     <!--link UIkit JS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
 
     <!--link UIkit JS -->
-
   </body>
 </html>
