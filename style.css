@@ -224,11 +224,10 @@ padding: 6rem 1rem;
 }
 
 .Specialists_head {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 30px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  
 }
 
 .Specialists_head div img {
@@ -240,6 +239,7 @@ padding: 6rem 1rem;
 .Specialists_head div {
   background-color: rgba(255, 228, 196, 0.774);
   padding: 5rem 6rem;
+  border-radius: 20px;
   text-align: center;
   line-height: 2rem;
 }
@@ -275,7 +275,7 @@ Subscribe  Start
 .Subscribe_head {
  
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   gap: 4px;
@@ -315,7 +315,6 @@ Subscribe  End
 .Public-Hospital {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   margin: 0px 30px;
 }
 
@@ -326,9 +325,9 @@ Subscribe  End
 }
 
 .Link-style {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ 
 }
 
 .Link-style div {
@@ -357,7 +356,7 @@ Subscribe  End
 /*----------------*****************---------------------------
 -----*media_quary 
 *************************************************************-------------------*****/
-@media screen and (min-width: 320px) and (max-width: 992px){
+@media only screen and (min-width: 321px) and (max-width: 768px){
   #nav-hed {
     display: flex;
     flex-direction: column;
@@ -396,13 +395,11 @@ Subscribe  End
   .Consulation_main img{
     width: 60vw;
   }
-  .Specialists_head{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
+ .Specialists_head{
+  grid-template-columns: repeat(1,1fr);
+ }
   .Specialists_head div{
-    /* margin-top: 14px; */
+
     margin: 14px 14px;
   }
   .Subscribe_head{
@@ -415,16 +412,51 @@ Subscribe  End
     flex-direction: column;
     margin: 20px 0px;
   }
-  .Link-style{
-    flex-direction: column;
-    margin: 20px 0px;
+  
+.Link-style {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+ }
 
-  }
+
+ .Hospital-footer {
+  height: 0px;
+ }
 
 
 }
 
 
+@media only screen and (min-width: 769px) and (max-width: 992px){
+  /* about_main */
+  .about_main {
+   margin: 0;
+}
+  /* about_main */
+
+
+  /* Specialists_head */
+  .Specialists_head {
+     grid-template-columns: repeat(2, 1fr);
+   }
+
+   /* Specialists_head */
+
+
+   /* footer */
+   .Link-style {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+   }
+   
+   .Hospital-footer {
+    height: 0px;
+   }
+   /* footer */
+
+}
 /*----------------*****************---------------------------
 -------------------*****************media_quary 
 *************************************************************/
