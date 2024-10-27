@@ -5,10 +5,12 @@
   font-family: sans-serif;
 }
 
+/* commonColor  Start*/
 .commonColor {
   color: blue;
 }
-
+/* commonColor  End*/
+/* nav-hed Start */
 #nav-hed {
   display: flex;
   justify-content: space-between;
@@ -19,7 +21,7 @@
 
 .nav-link li {
   display: inline-block;
-  /* list-style: none; */
+ 
   margin: 0px 14px;
   cursor: pointer;
 }
@@ -37,6 +39,8 @@
   border-bottom: 1px solid blue;
 }
 
+/* nav-hed End */
+/* btn-book  Start*/
 .btn-book {
   background-color: blue;
   color: white;
@@ -51,7 +55,8 @@
 .btn-book:hover {
   opacity: 0.6;
 }
-
+/* btn-book  End*/
+/* body-hed Start*/
 .body-hed {
   display: flex;
   justify-content: space-evenly;
@@ -63,9 +68,10 @@
   width: 100%;
   height: 100%;
 }
+/* body-hed End*/
 
 /*************
- about_us
+ about_us Start
  **********/
 
 .About_con {
@@ -87,7 +93,7 @@
   font-size: 12px;
   opacity: 0.7;
 }
-
+/* cardbodysection Start*/
 .card1 {
   background-color: darkgrey;
   padding: 20px 16px;
@@ -147,13 +153,14 @@
   align-items: center;
   cursor: pointer;
 }
+/* cardbodysection End*/
 
 /*************
-about_us
+about_us End
  **********/
 
 /************** 
- Consulation ********************/
+ Consulation Start********************/
 
 .Consulation_main {
   background-color: rgba(236, 231, 226, 0.158);
@@ -187,10 +194,10 @@ padding: 6rem 1rem;
 }
 
 /************** 
- Consulation ********************/
+ Consulation End********************/
 
 /*********************************************************
-                                                           About_me 
+                                                           About_me Start
                                                            ***********************************************************/
 
 .about_me {
@@ -205,10 +212,10 @@ padding: 6rem 1rem;
 }
 
 /*********************************************************
-                                                           About_me 
+                                                           About_me End
                                                            ***********************************************************/
 /***************************************** 
-------------------Specialists 
+------------------Specialists Start
 ******************************/
 
 .Specialists {
@@ -247,11 +254,11 @@ padding: 6rem 1rem;
 }
 
 /***************************************** 
-------------------Specialists 
+------------------Specialists End
 ******************************/
 
 /* ****************
-Subscribe  
+Subscribe  Start
 *********************/
 
 .Subscribe {
@@ -266,7 +273,7 @@ Subscribe
 }
 
 .Subscribe_head {
-  /* margin: 22px 30px; */
+ 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
@@ -298,11 +305,11 @@ Subscribe
 }
 
 /* ****************
-Subscribe  
+Subscribe  End
 *********************/
 
 /*********************
- Footer 
+ Footer Start
  *********************************/
 
 .Public-Hospital {
@@ -344,7 +351,7 @@ Subscribe
 }
 
 /*********************
- Footer 
+ Footer End
  *********************************/
 
 /*----------------*****************---------------------------
